@@ -47,7 +47,7 @@ My degree is in **Business Management**, not CS — everything technical is self
 
 <div align="center">
 
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Egyan07&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=5DCAA5&text_color=a9b1d6&langs_count=7)](https://github.com/Egyan07)
+[![Top Langs](https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Egyan07&layout=compact&bg_color=0d1117&text_color=c9d1d9&title_color=58a6ff&hide_border=true)](https://github.com/Egyan07)
 
 <br/>
 

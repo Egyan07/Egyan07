@@ -194,7 +194,7 @@ Backup integrity monitoring. SHA-256 baseline hashing, Shannon entropy ransomwar
 <tr>
 <td width="50%" valign="top">
 
-**Red Parrot Accounting Suite**
+**Accounting Automation Platform (UK Accounting Firm)**
 
 Multi-module internal web platform: AI-powered bank statement converter (PDF→Excel), HMRC letter interpreter, holiday tracker with approval workflows, staff operations dashboard.
 

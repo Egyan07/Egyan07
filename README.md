@@ -47,13 +47,17 @@ My degree is in **Business Management**, not CS — everything technical is self
 
 <div align="center">
 
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Egyan07&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=5DCAA5&text_color=a9b1d6&langs_count=7&hide=jupyter%20notebook" />
-&nbsp;&nbsp;
-<img height="160" src="https://github-readme-streak-stats.herokuapp.com/?user=Egyan07&theme=github-dark-blue&hide_border=true&background=0d1117&ring=5DCAA5&fire=7F77DD&currStreakLabel=a9b1d6" />
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Egyan07&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=5DCAA5&text_color=a9b1d6&langs_count=7)](https://github.com/Egyan07)
+
+<br/>
+
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Egyan07&theme=github-dark-blue&hide_border=true&background=0d1117&ring=5DCAA5&fire=7F77DD&currStreakLabel=a9b1d6)](https://github.com/Egyan07)
+
+<br/>
+
+[![Contribution Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Egyan07&theme=github-dark&bg_color=0d1117&color=5DCAA5&line=7F77DD&point=a9b1d6&hide_border=true)](https://github.com/Egyan07)
 
 </div>
-
----
 
 ## Tech Stack
 

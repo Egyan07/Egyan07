@@ -266,3 +266,9 @@ class Engineer:
 [![GitHub](https://img.shields.io/badge/github.com%2FEgyan07-0d1117?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Egyan07)
 
 </div>
+
+<div align="center">
+
+![snake animation](https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg)
+
+</div>

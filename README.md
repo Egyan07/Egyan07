@@ -24,7 +24,7 @@
 
 ---
 
-<img align="right" width="360" src="https://github-readme-stats.vercel.app/api?username=Egyan07&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=5DCAA5&icon_color=7F77DD&text_color=a9b1d6&rank_icon=github" />
+<img align="right" width="360" src="https://github-readme-stats-sigma-five.vercel.app/api?username=Egyan07&bg_color=0d1117&text_color=c9d1d9&title_color=58a6ff&icon_color=58a6ff&hide_border=true" />
 
 ### About Me
 

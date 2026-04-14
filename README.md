@@ -261,9 +261,11 @@ class Engineer:
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:533483,50:0f3460,100:0d1117&height=100&section=footer" width="100%" />
 
-*For serious inquiries, reach out via GitHub.*
+*For serious inquiries, reach out via GitHub or email.*
 
 [![GitHub](https://img.shields.io/badge/github.com%2FEgyan07-0d1117?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Egyan07)
+&nbsp;
+[![Email](https://img.shields.io/badge/alexisegyan1232@gmail.com-0d1117?style=for-the-badge&logo=gmail&logoColor=white)](mailto:alexisegyan1232@gmail.com)
 
 </div>
 

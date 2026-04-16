@@ -32,7 +32,7 @@ I design, build, test, secure, and ship production-grade security tools, automat
 
 By day I work in IT & Self-Assessment at **Red Parrot Accounting** (UK). In practice I've shipped 10+ tools that didn't exist before I built them: from SOC 2 compliance platforms to Active Directory attack detectors to TLS fingerprinting tools written in Go.
 
-My degree is in **Business Management**, not CS — everything technical is self-taught. I approach security from both sides: I build the attack demo *and* the detector. I write 1,500+ tests because I hold myself to a standard nobody asked for.
+My degree is in **Business Management**, not CS — everything technical is self-taught. I approach security from both sides: I build the attack demo *and* the detector. I write 1,600+ tests because I hold myself to a standard nobody asked for.
 
 - Built 6 security tools covering AD, TLS, IOCs, backups, and compliance
 - 90% backend test coverage on GhostBackup (744+ tests)

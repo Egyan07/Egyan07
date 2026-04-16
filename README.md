@@ -225,7 +225,7 @@ Dual-program demo: 10 Win32 APIs for keyboard capture (attacker perspective) + c
 
 | | | | |
 |:---:|:---:|:---:|:---:|
-| ![](https://img.shields.io/badge/10%2B-Projects_Shipped-0d1117?style=for-the-badge&labelColor=533483&color=0d1117) | ![](https://img.shields.io/badge/1%2C500%2B-Tests_Written-0d1117?style=for-the-badge&labelColor=0F6E56&color=0d1117) | ![](https://img.shields.io/badge/7-Languages-0d1117?style=for-the-badge&labelColor=185FA5&color=0d1117) | ![](https://img.shields.io/badge/6-Security_Tools-0d1117?style=for-the-badge&labelColor=993C1D&color=0d1117) |
+| ![](https://img.shields.io/badge/10%2B-Projects_Shipped-0d1117?style=for-the-badge&labelColor=533483&color=0d1117) | ![](https://img.shields.io/badge/1%2C600%2B-Tests_Written-0d1117?style=for-the-badge&labelColor=0F6E56&color=0d1117) | ![](https://img.shields.io/badge/7-Languages-0d1117?style=for-the-badge&labelColor=185FA5&color=0d1117) | ![](https://img.shields.io/badge/6-Security_Tools-0d1117?style=for-the-badge&labelColor=993C1D&color=0d1117) |
 | ![](https://img.shields.io/badge/90%25-Backend_Coverage-0d1117?style=for-the-badge&labelColor=3B6D11&color=0d1117) | ![](https://img.shields.io/badge/29-SOC_2_Controls-0d1117?style=for-the-badge&labelColor=854F0B&color=0d1117) | ![](https://img.shields.io/badge/40%2C000%2B-IOCs_Monitored-0d1117?style=for-the-badge&labelColor=185FA5&color=0d1117) | ![](https://img.shields.io/badge/7-AD_Detectors-0d1117?style=for-the-badge&labelColor=A32D2D&color=0d1117) |
 
 </div>

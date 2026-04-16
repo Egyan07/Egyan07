@@ -6,7 +6,7 @@
 
 <br/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2800&pause=900&color=5DCAA5&center=true&vCenter=true&width=600&lines=Security+Engineering+%7C+Threat+Detection;Automated+Testing+%7C+1%2C500%2B+tests+written;Python+Backend+%7C+FastAPI+%7C+Windows+Services;TLS+Fingerprinting+%7C+AD+Attack+Detection;DevSecOps+%7C+Platform+Engineering;SOC+2+Automation+%7C+AES-256-GCM)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2800&pause=900&color=5DCAA5&center=true&vCenter=true&width=600&lines=Security+Engineering+%7C+Threat+Detection;Automated+Testing+%7C+1%2C600%2B+tests+written;Python+Backend+%7C+FastAPI+%7C+Windows+Services;TLS+Fingerprinting+%7C+AD+Attack+Detection;DevSecOps+%7C+Platform+Engineering;SOC+2+Automation+%7C+AES-256-GCM)](https://git.io/typing-svg)
 
 <br/>
 

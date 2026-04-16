@@ -14,7 +14,7 @@
 &nbsp;
 [![GitHub followers](https://img.shields.io/github/followers/Egyan07?style=flat-square&color=0f6e56&label=Followers&logo=github)](https://github.com/Egyan07?tab=followers)
 &nbsp;
-![Tests Written](https://img.shields.io/badge/Tests_Written-1%2C500%2B-5DCAA5?style=flat-square&logo=checkmarx&logoColor=white)
+![Tests Written](https://img.shields.io/badge/Tests_Written-1%2C600%2B-5DCAA5?style=flat-square&logo=checkmarx&logoColor=white)
 &nbsp;
 ![Tools Shipped](https://img.shields.io/badge/Tools_Shipped-10%2B-7F77DD?style=flat-square&logo=rocket&logoColor=white)
 &nbsp;
@@ -116,7 +116,7 @@ My degree is in **Business Management**, not CS — everything technical is self
 
 SOC 2 compliance automation platform. Runs as Electron desktop app or self-hosted web app. Scores against 29 SOC 2 controls, generates PDF reports, Ed25519 offline licensing.
 
-![Tests](https://img.shields.io/badge/266_tests-unit+integration+e2e-5DCAA5?style=flat-square)
+![Tests](https://img.shields.io/badge/294_tests-unit+integration+e2e-5DCAA5?style=flat-square)
 ![Status](https://img.shields.io/badge/status-active_dev-BA7517?style=flat-square)
 
 `FastAPI` `React 18` `Electron` `PostgreSQL` `Docker` `Ed25519`

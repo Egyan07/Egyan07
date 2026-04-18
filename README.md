@@ -112,11 +112,11 @@ My degree is in **Business Management**, not CS — everything technical is self
 <tr>
 <td width="50%" valign="top">
 
-**[ComplianceGuard](https://github.com/Egyan07/complianceguard)** `v2.3.0`
+**[ComplianceGuard](https://github.com/Egyan07/complianceguard)** `v2.9.0`
 
 SOC 2 compliance automation platform. Runs as Electron desktop app or self-hosted web app. Scores against 29 SOC 2 controls, generates PDF reports, Ed25519 offline licensing.
 
-![Tests](https://img.shields.io/badge/294_tests-unit+integration+e2e-5DCAA5?style=flat-square)
+![Tests](https://img.shields.io/badge/311_tests-unit+integration+e2e-5DCAA5?style=flat-square)
 ![Status](https://img.shields.io/badge/status-active_dev-BA7517?style=flat-square)
 
 `FastAPI` `React 18` `Electron` `PostgreSQL` `Docker` `Ed25519`

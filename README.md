@@ -248,12 +248,11 @@ class Engineer:
 
 ## Currently Exploring
 
-- Cloud sync + centralized multi-machine compliance dashboards
-- Advanced Windows internals and EDR/XDR techniques
-- SOC 2, ISO 27001, HIPAA, and PCI DSS automation frameworks
-- Cryptographic licensing and offline activation systems
-- Open-core SaaS business design and go-to-market strategy
-- Cross-platform expansion (macOS, Linux) for Windows-first tools
+- Hardening Electron apps against modern attack surfaces (process isolation, CSP, update signing)
+- Building offline-first cryptographic licensing systems that don't phone home
+- Porting Windows-first security tools to macOS and Linux without losing native depth
+- Open-core SaaS pricing models for security tooling — where the line between free and paid actually sits
+- How EDR/XDR products detect the techniques I build demos for
 
 ---
 

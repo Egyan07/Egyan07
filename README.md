@@ -4,14 +4,6 @@
   <img alt="Egyan07's GitHub profile" src="dark_mode.svg" width="100%" />
 </picture>
 
-<div align="center">
-
-<a href="https://github.com/Egyan07">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:0f3460,100:533483&height=160&section=header&text=EGYAN&fontSize=64&fontColor=ffffff&fontAlignY=42&desc=Security%20engineering%20%2B%20automation&descSize=16&descAlignY=62" alt="Header" />
-</a>
-
-</div>
-
 ### About
 
 I build and ship security and automation tooling: compliance scoring, encrypted backups, threat intelligence, TLS fingerprinting, Active Directory attack detection. Design, implementation, testing, and packaging are all mine.
@@ -59,10 +51,6 @@ JA3/JA3S TLS fingerprinting, written in Go, stdlib only. Parses the raw ClientHe
 **Security:** TLS fingerprinting, Ed25519, AES-256-GCM, Windows internals (AD, registry), threat intelligence
 
 **Testing / CI:** pytest, CodeQL
-
-<div align="center">
-<img width="480" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Egyan07&layout=compact&bg_color=0d1117&text_color=c9d1d9&title_color=58a6ff&hide_border=true" alt="Top languages" />
-</div>
 
 ---
 

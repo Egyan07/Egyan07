@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 400" width="800" height="400">
+  <defs>
+    <style>
+      .bg { fill: #0d1117; }
+      .title { font-family: 'Monaco', 'Courier New', monospace; font-size: 48px; font-weight: bold; fill: #58a6ff; }
+      .subtitle { font-family: 'Monaco', 'Courier New', monospace; font-size: 16px; fill: #8b949e; }
+      .text { font-family: 'Monaco', 'Courier New', monospace; font-size: 14px; fill: #c9d1d9; }
+      .accent { fill: #5DCAA5; }
+    </style>
+  </defs>
+  <rect class="bg" width="800" height="400"/>
+  <rect class="accent" x="0" y="0" width="4" height="400"/>
+  <text class="title" x="40" y="80">Egyan07</text>
+  <text class="subtitle" x="40" y="120">Security Engineer • Building Tools</text>
+  <text class="text" x="40" y="170">→ 10+ Projects Shipped</text>
+  <text class="text" x="40" y="195">→ 1,600+ Tests Written</text>
+  <text class="text" x="40" y="220">→ 90% Backend Coverage</text>
+  <text class="text" x="40" y="245">→ Zero-Dependency Architecture</text>
+  <text class="text" x="40" y="290">Python • Go • TypeScript • FastAPI</text>
+  <text class="text" x="40" y="315">React • Electron • PostgreSQL • Docker</text>
+  <text class="subtitle" x="40" y="360">github.com/Egyan07</text>
+</svg>

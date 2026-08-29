@@ -1,12 +1,18 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="light_mode.svg" />
+  <img alt="Egyan07's GitHub profile" src="dark_mode.svg" />
+</picture>
+
 <div align="center">
 
 <a href="https://github.com/Egyan07">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:0f3460,100:533483&height=200&section=header&text=EGYAN&fontSize=80&fontColor=ffffff&fontAlignY=38&desc=Security-Focused%20Full%20Stack%20Engineer&descAlignY=60&descColor=a9b1d6&animation=fadeIn" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:0f3460,100:533483&height=200&section=header&text=EGYAN&fontSize=80&fontColor=ffffff&fontAlignY=38&desc=Security-Focus[...]
 </a>
 
 <br/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2800&pause=900&color=5DCAA5&center=true&vCenter=true&width=600&lines=Security+Engineering+%7C+Threat+Detection;Automated+Testing+%7C+1%2C600%2B+tests+written;Python+Backend+%7C+FastAPI+%7C+Windows+Services;TLS+Fingerprinting+%7C+AD+Attack+Detection;DevSecOps+%7C+Platform+Engineering;SOC+2+Automation+%7C+AES-256-GCM)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2800&pause=900&color=5DCAA5&center=true&vCenter=true&width=600&lines=Security+Engineering+%7C+Th[...]
 
 <br/>
 
@@ -24,15 +30,15 @@
 
 ---
 
-<img align="right" width="360" src="https://github-readme-stats-sigma-five.vercel.app/api?username=Egyan07&bg_color=0d1117&text_color=c9d1d9&title_color=58a6ff&icon_color=58a6ff&hide_border=true" />
+<img align="right" width="360" src="https://github-readme-stats-sigma-five.vercel.app/api?username=Egyan07&bg_color=0d1117&text_color=c9d1d9&title_color=58a6ff&icon_color=58a6ff&hide_border=true" [...]
 
 ### About Me
 
 I design, build, test, secure, and ship production-grade security tools, automation platforms, and commercial SaaS products — entirely self-directed, without a formal engineering mandate.
 
-By day I work in IT & Self-Assessment at **Red Parrot Accounting** (UK). In practice I've shipped 10+ tools that didn't exist before I built them: from SOC 2 compliance platforms to Active Directory attack detectors to TLS fingerprinting tools written in Go.
+By day I work in IT & Self-Assessment at **Red Parrot Accounting** (UK). In practice I've shipped 10+ tools that didn't exist before I built them: from SOC 2 compliance platforms to Active Directo[...]
 
-My degree is in **Business Management**, not CS — everything technical is self-taught. I approach security from both sides: I build the attack demo *and* the detector. I write 1,600+ tests because I hold myself to a standard nobody asked for.
+My degree is in **Business Management**, not CS — everything technical is self-taught. I approach security from both sides: I build the attack demo *and* the detector. I write 1,600+ tests becau[...]
 
 - Built 6 security tools covering AD, TLS, IOCs, backups, and compliance
 - 90% backend test coverage on GhostBackup (744+ tests)
@@ -47,15 +53,15 @@ My degree is in **Business Management**, not CS — everything technical is self
 
 <div align="center">
 
-[![Top Langs](https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Egyan07&layout=compact&bg_color=0d1117&text_color=c9d1d9&title_color=58a6ff&hide_border=true)](https://github.com/Egyan07)
+[![Top Langs](https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Egyan07&layout=compact&bg_color=0d1117&text_color=c9d1d9&title_color=58a6ff&hide_border=true)](https://githu[...]
 
 <br/>
 
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Egyan07&theme=github-dark-blue&hide_border=true&background=0d1117&ring=5DCAA5&fire=7F77DD&currStreakLabel=a9b1d6)](https://github.com/Egyan07)
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Egyan07&theme=github-dark-blue&hide_border=true&background=0d1117&ring=5DCAA5&fire=7F77DD&currStreakLabel=a9b1d6)](https://[...]
 
 <br/>
 
-[![Contribution Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Egyan07&theme=github-dark&bg_color=0d1117&color=5DCAA5&line=7F77DD&point=a9b1d6&hide_border=true)](https://github.com/Egyan07)
+[![Contribution Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Egyan07&theme=github-dark&bg_color=0d1117&color=5DCAA5&line=7F77DD&point=a9b1d6&hide_border=true)](ht[...]
 
 </div>
 
@@ -207,7 +213,7 @@ Multi-module internal web platform: AI-powered bank statement converter (PDF→E
 
 **Win32 Keylogger/Detector** *(Educational)*
 
-Dual-program demo: 10 Win32 APIs for keyboard capture (attacker perspective) + companion detector showing how AV/EDR tools detect the technique (defender perspective). Cross-compiled from Kali Linux.
+Dual-program demo: 10 Win32 APIs for keyboard capture (attacker perspective) + companion detector showing how AV/EDR tools detect the technique (defender perspective). Cross-compiled from Kali Li[...]
 
 ![Status](https://img.shields.io/badge/status-educational_only-888780?style=flat-square)
 
@@ -225,8 +231,8 @@ Dual-program demo: 10 Win32 APIs for keyboard capture (attacker perspective) + c
 
 | | | | |
 |:---:|:---:|:---:|:---:|
-| ![](https://img.shields.io/badge/10%2B-Projects_Shipped-0d1117?style=for-the-badge&labelColor=533483&color=0d1117) | ![](https://img.shields.io/badge/1%2C600%2B-Tests_Written-0d1117?style=for-the-badge&labelColor=0F6E56&color=0d1117) | ![](https://img.shields.io/badge/7-Languages-0d1117?style=for-the-badge&labelColor=185FA5&color=0d1117) | ![](https://img.shields.io/badge/6-Security_Tools-0d1117?style=for-the-badge&labelColor=993C1D&color=0d1117) |
-| ![](https://img.shields.io/badge/90%25-Backend_Coverage-0d1117?style=for-the-badge&labelColor=3B6D11&color=0d1117) | ![](https://img.shields.io/badge/29-SOC_2_Controls-0d1117?style=for-the-badge&labelColor=854F0B&color=0d1117) | ![](https://img.shields.io/badge/40%2C000%2B-IOCs_Monitored-0d1117?style=for-the-badge&labelColor=185FA5&color=0d1117) | ![](https://img.shields.io/badge/7-AD_Detectors-0d1117?style=for-the-badge&labelColor=A32D2D&color=0d1117) |
+| ![](https://img.shields.io/badge/10%2B-Projects_Shipped-0d1117?style=for-the-badge&labelColor=533483&color=0d1117) | ![](https://img.shields.io/badge/1%2C600%2B-Tests_Written-0d1117?style=for-t[...]
+| ![](https://img.shields.io/badge/90%25-Backend_Coverage-0d1117?style=for-the-badge&labelColor=3B6D11&color=0d1117) | ![](https://img.shields.io/badge/29-SOC_2_Controls-0d1117?style=for-the-badg[...]
 
 </div>
 

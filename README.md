@@ -4,9 +4,9 @@
   <img alt="Egyan07's GitHub profile" src="dark_mode.svg" width="100%" />
 </picture>
 
-Most of what I build lives below the API layer: parsing raw TLS handshakes, watching Windows Event Logs for attack patterns, streaming encrypted backups byte by byte, scoring compliance evidence pulled directly off a machine instead of a policy checklist. I design, build, test, and package all of it myself.
+Most of what I build lives below the API layer: parsing raw TLS handshakes, watching Windows Event Logs for attack patterns, streaming encrypted backups byte by byte, scoring compliance evidence pulled directly off a machine instead of a policy checklist. I handle the design, implementation, testing, and packaging.
 
-My degree is in Business Management. Everything technical past that point I taught myself by shipping full projects, parsers, services, detection engines, desktop apps. What's below is what came out of that.
+My degree is in Business Management. My engineering background is self-taught, mostly through building and shipping full projects: parsers, services, detection engines, and desktop applications. What's below is what came out of that.
 
 **What I build**
 - Security tooling that reads raw protocol and log data directly, not through someone else's SDK
@@ -20,7 +20,7 @@ Day job: IT & self-assessment at Red Parrot Accounting (UK). Four of the project
 
 ## Featured
 
-**[ComplianceGuard](https://github.com/Egyan07/ComplianceGuard)** · `v3.7.0`
+**[ComplianceGuard](https://github.com/Egyan07/ComplianceGuard)** · `v3.8.1`
 Compliance automation that scores evidence collected directly off a Windows or macOS machine, not a cloud config screen.
 
 It checks a real endpoint against SOC 2 (54 controls), ISO 27001 (47), HIPAA (47), and GDPR (38), and ships either as an Electron desktop app or a self-hosted Docker deployment. The part I found genuinely hard: building an Ed25519-signed licensing system for software distributed outside an app store, where you can't lean on a platform to handle activation for you. I built the scoring engine, the evidence-collection pipeline, the desktop packaging, and the reporting layer. Backend: 359 tests (315 unit, 35 integration, 9 e2e). Frontend: 235 unit tests.
@@ -44,7 +44,7 @@ A threat-intelligence lookup engine built to answer one question fast: is this I
 **[GhostSecure](https://github.com/Egyan07/GhostSecure)** · `v2.1.2`, built for Red Parrot Accounting Ltd
 A Windows service that watches the Security Event Log as it's written, looking for eight specific Active Directory attack techniques: Kerberoasting, Pass-the-Hash, DCSync, Golden Ticket, LDAP recon, AS-REP roasting, Skeleton Key use, and audit-log tampering.
 
-Each detector maps to a specific Windows Event ID rather than scoring a generic anomaly, which is the difference between an alert someone can act on and one they learn to ignore. 53 tests across all 7 detector modules.
+Each detector maps to a specific Windows Event ID rather than scoring a generic anomaly, which is the difference between an alert someone can act on and one they learn to ignore. Eight attack techniques across seven detector modules (one module handles both Skeleton Key use and audit-log tampering), with 53 tests covering the detection logic.
 
 `Python` `pywin32` `Windows Service`
 
@@ -88,6 +88,8 @@ Backup integrity monitoring using SHA-256 hashing and Shannon-entropy analysis t
 - Porting GhostSecure's detection logic to Linux auditd and macOS unified logging without losing the fidelity the Windows Event Log gives it
 
 ---
+
+Each repository README documents its own architecture, test setup, and changelog, worth a look if a project above catches your eye.
 
 Open to: security engineering · backend engineering · security tooling
 

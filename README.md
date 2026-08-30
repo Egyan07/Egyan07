@@ -4,79 +4,91 @@
   <img alt="Egyan07's GitHub profile" src="dark_mode.svg" width="100%" />
 </picture>
 
-### About
+Most of what I build lives below the API layer: parsing raw TLS handshakes, watching Windows Event Logs for attack patterns, streaming encrypted backups byte by byte, scoring compliance evidence pulled directly off a machine instead of a policy checklist. I design, build, test, and package all of it myself.
 
-I build and ship security and automation tooling: compliance scoring, encrypted backups, threat intelligence, TLS fingerprinting, Active Directory attack detection. Design, implementation, testing, and packaging are all mine.
+My degree is in Business Management. Everything technical past that point I taught myself by shipping full projects, parsers, services, detection engines, desktop apps. What's below is what came out of that.
 
-My degree is in Business Management. The engineering is self-taught, built by shipping full projects instead of following a course.
+**What I build**
+- Security tooling that reads raw protocol and log data directly, not through someone else's SDK
+- Backend services and desktop apps (FastAPI + Electron/React)
+- Detection and threat-intelligence systems
+- Compliance automation and cryptographic/backup infrastructure
 
-Day job: IT & self-assessment at Red Parrot Accounting (UK). Four of the tools below were built for use there and are noted as such; the rest are independent projects.
+Day job: IT & self-assessment at Red Parrot Accounting (UK). Four of the projects below were built for use there and are noted as such; the rest are independent.
 
 ---
 
-## Selected Projects
+## Featured
 
-**[ComplianceGuard](https://github.com/Egyan07/ComplianceGuard)** (`v3.7.0`)
-Endpoint compliance automation, scoring SOC 2 (54 controls), ISO 27001 (47), HIPAA (47), and GDPR (38) from evidence collected directly off Windows and macOS machines, not just cloud config. Desktop app (Electron) or self-hosted Docker deployment, Ed25519-signed licensing, tiered pricing. I built the scoring engine, evidence-collection pipeline, desktop packaging, and reporting. Backend: 359 tests (315 unit, 35 integration, 9 e2e). Frontend: 235 unit tests.
+**[ComplianceGuard](https://github.com/Egyan07/ComplianceGuard)** · `v3.7.0`
+Compliance automation that scores evidence collected directly off a Windows or macOS machine, not a cloud config screen.
+
+It checks a real endpoint against SOC 2 (54 controls), ISO 27001 (47), HIPAA (47), and GDPR (38), and ships either as an Electron desktop app or a self-hosted Docker deployment. The part I found genuinely hard: building an Ed25519-signed licensing system for software distributed outside an app store, where you can't lean on a platform to handle activation for you. I built the scoring engine, the evidence-collection pipeline, the desktop packaging, and the reporting layer. Backend: 359 tests (315 unit, 35 integration, 9 e2e). Frontend: 235 unit tests.
+
 `FastAPI` `React` `TypeScript` `Electron` `PostgreSQL`
 
-**[GhostBackup](https://github.com/Egyan07/GhostBackup)** (deployed at Red Parrot Accounting, UK)
-Streaming encrypted backups using AES-256-GCM. Delta detection means only changed data gets re-encrypted and copied to dual local SSDs. A restore-verification step and startup self-check confirm backups are actually recoverable, not just present. 744 tests across backend, frontend, and Electron, all passing, roughly 90% backend coverage.
+**[GhostBackup](https://github.com/Egyan07/GhostBackup)** · deployed at Red Parrot Accounting, UK
+Streaming, AES-256-GCM authenticated encryption for backups, with the assumption baked in that a backup that finishes isn't necessarily a backup that works.
+
+Delta detection means only changed data gets re-encrypted and copied across, rather than re-processing everything on every run. A restore-verification step and a startup self-check exist specifically to catch the failure mode most backup tools ignore: silent corruption you don't discover until the day you actually need the backup. 744 tests across backend, frontend, and the Electron shell, all passing, roughly 90% backend coverage.
+
 `Python` `FastAPI` `Electron` `SQLite`
 
-**[PhantomEye](https://github.com/Egyan07/PhantomEye)** (`v2.1`)
-Threat intelligence tool with zero runtime dependencies, stdlib only. Pulls 40,000+ IOCs from 8 OSINT feeds into a structure built for O(1) lookup, then scans firewall logs, DNS cache, and email headers against it. 222+ tests, including a dedicated 18-test input-validation suite.
+**[PhantomEye](https://github.com/Egyan07/PhantomEye)** · `v2.1`
+A threat-intelligence lookup engine built to answer one question fast: is this IP, domain, or hash something we already know about.
+
+40,000+ IOCs pulled from 8 OSINT feeds, loaded into a structure built for O(1) lookup, then matched against firewall logs, DNS cache entries, and email headers. No runtime dependencies outside the standard library. 222+ tests, including an 18-test suite dedicated just to input validation.
+
 `Python` `SQLite` `CodeQL SAST`
 
-**[GhostSecure](https://github.com/Egyan07/GhostSecure)** (`v2.1.2`, built for Red Parrot Accounting Ltd)
-Windows service watching the Security Event Log for 8 live Active Directory attack techniques in real time: Kerberoasting, Pass-the-Hash, DCSync, Golden Ticket, LDAP recon, AS-REP roasting, Skeleton Key, and audit-log tampering, each mapped to a specific Windows Event ID. 53 tests across all 7 detector modules.
+**[GhostSecure](https://github.com/Egyan07/GhostSecure)** · `v2.1.2`, built for Red Parrot Accounting Ltd
+A Windows service that watches the Security Event Log as it's written, looking for eight specific Active Directory attack techniques: Kerberoasting, Pass-the-Hash, DCSync, Golden Ticket, LDAP recon, AS-REP roasting, Skeleton Key use, and audit-log tampering.
+
+Each detector maps to a specific Windows Event ID rather than scoring a generic anomaly, which is the difference between an alert someone can act on and one they learn to ignore. 53 tests across all 7 detector modules.
+
 `Python` `pywin32` `Windows Service`
 
-**[ViperFin](https://github.com/Egyan07/ViperFin)** (`v1.1.1`)
-JA3/JA3S TLS fingerprinting, written in Go, stdlib only. Parses the raw ClientHello to identify what's making a TLS connection: browser, scanner, or malware C2 (Cobalt Strike, Emotet, TrickBot), with RFC 8701 GREASE filtering so randomized values don't break the fingerprint. Cross-compiles for Linux, Windows, and macOS.
+---
+
+## More work
+
+**[ViperFin](https://github.com/Egyan07/ViperFin)** · `v1.1.1`
+JA3/JA3S TLS fingerprinting written in Go. Parses the raw ClientHello bytes off the wire to identify what's actually making a TLS connection, a browser, a scanner, or malware C2 like Cobalt Strike, Emotet, or TrickBot, with RFC 8701 GREASE filtering so randomized cipher values don't produce false fingerprints. Cross-compiles for Linux, Windows, and macOS with no non-stdlib dependencies.
 `Go` `TLS`
 
-**Also:** [VaultSentry](https://github.com/Egyan07/VaultSentry), backup integrity monitoring for Red Parrot Accounting, using SHA-256 hashing and Shannon-entropy analysis to flag likely ransomware encryption, plus snapshot diffing and a restore engine. 162 tests, 73% coverage.
+**[VaultSentry](https://github.com/Egyan07/VaultSentry)**, built for Red Parrot Accounting
+Backup integrity monitoring using SHA-256 hashing and Shannon-entropy analysis to flag the kind of high-entropy rewrite pattern ransomware leaves behind, plus snapshot diffing and a restore engine. 162 tests, 73% coverage.
+`Python` `SQLite`
 
 ---
 
 ## Stack
 
 **Languages:** Python, Go, TypeScript, JavaScript, C, PowerShell
-
 **Backend:** FastAPI, PostgreSQL, SQLite, Docker, Nginx
-
 **Desktop / Frontend:** Electron, React, Vite, Tailwind
-
 **Security:** TLS fingerprinting, Ed25519, AES-256-GCM, Windows internals (AD, registry), threat intelligence
-
 **Testing / CI:** pytest, CodeQL
 
 ---
 
 ## How I work
 
-- If it's not tested, I don't trust it.
-- I build the attack and the detector. Understanding one means understanding the other.
-- stdlib first. Every added dependency is a supply chain decision.
-- Document what the tool doesn't do, not just what it does.
+- If it's not tested, I don't trust it in production.
+- I build the attack technique and the detector for it, in that order, so I know the detector actually catches something real.
+- Standard library first. Every dependency added after that is a decision I have to justify.
+- A tool's docs should say what it doesn't handle, not just what it does.
 
 ---
 
 ## Currently exploring
 
-- Hardening Electron apps: process isolation, CSP, update signing, sandbox escapes
-- Offline-first licensing that doesn't phone home
-- Porting Windows-first security tooling to macOS/Linux without losing depth
+- Sandboxing Electron's renderer process without breaking the native OS integrations ComplianceGuard depends on
+- Licensing that verifies offline, with no phone-home call required at launch
+- Porting GhostSecure's detection logic to Linux auditd and macOS unified logging without losing the fidelity the Windows Event Log gives it
 
 ---
 
-<div align="center">
+Open to: security engineering · backend engineering · security tooling
 
-[![GitHub](https://img.shields.io/badge/github.com%2FEgyan07-0d1117?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Egyan07)
-&nbsp;
-[![Email](https://img.shields.io/badge/alexisegyan1232@gmail.com-0d1117?style=for-the-badge&logo=gmail&logoColor=white)](mailto:alexisegyan1232@gmail.com)
-&nbsp;
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/egyan07)
-
-</div>
+**Contact:** [GitHub](https://github.com/Egyan07) · [Email](mailto:alexisegyan1232@gmail.com) · [LinkedIn](https://linkedin.com/in/egyan07)

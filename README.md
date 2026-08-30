@@ -4,7 +4,7 @@
   <img alt="Egyan07's GitHub profile" src="dark_mode.svg" width="100%" />
 </picture>
 
-Most of what I build lives below the API layer: parsing raw TLS handshakes, watching Windows Event Logs for attack patterns, streaming encrypted backups byte by byte, scoring compliance evidence pulled directly off a machine instead of a policy checklist. I handle the design, implementation, testing, and packaging.
+Most of what I build lives below the API layer: parsing raw TLS handshakes, watching Windows Event Logs for attack patterns, streaming encrypted backups, and scoring compliance evidence pulled directly off a machine instead of a policy checklist.
 
 My degree is in Business Management. My engineering background is self-taught, mostly through building and shipping full projects: parsers, services, detection engines, and desktop applications. What's below is what came out of that.
 

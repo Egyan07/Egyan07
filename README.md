@@ -93,4 +93,4 @@ Each repository README documents its own architecture, test setup, and changelog
 
 Open to: security engineering · backend engineering · security tooling
 
-**Contact:** [GitHub](https://github.com/Egyan07) · [Email](mailto:alexisegyan1232@gmail.com) · [LinkedIn](https://linkedin.com/in/egyan07)
+**Contact:** [GitHub](https://github.com/Egyan07) · [Email](mailto:alexisegyan1232@gmail.com) · [LinkedIn](https://www.linkedin.com/in/egyan-sharma/)

@@ -14,7 +14,7 @@ My degree is in Business Management. My engineering background is self-taught, m
 - Backend services and desktop apps (FastAPI + Electron/React)
 - Detection and threat-intelligence systems
 
-Day job: IT and self-assessment at an accounting firm in the UK. GhostBackup is running there in production. The rest are independent projects, and I also take client work through Upwork: 23 projects, Top Rated, 100% job success.
+Day job: IT and self-assessment at an accounting firm. GhostBackup is running there in production. The rest are independent projects, and I also take client work through Upwork: 23 projects, Top Rated, 100% job success.
 
 ---
 

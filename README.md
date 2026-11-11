@@ -65,14 +65,13 @@ An educational `WH_KEYBOARD_LL` hook in C, written to see what a keylogger looks
 
 ---
 
-## Stack
+## Tech Stack
 
-**Languages:** Python, Go, TypeScript, JavaScript, C, PowerShell
-**Backend:** FastAPI, PostgreSQL, SQLite, Docker, Nginx
-**Desktop:** / Frontend:** Electron, React, Vite, Tailwind
-**Security:** TLS fingerprinting, Ed25519, AES-256-GCM, Windows internals (AD, registry), threat intelligence
-**Testing / CI:** pytest, Vitest, CodeQL
-
+**Languages:** Python, Go, TypeScript, JavaScript, C, PowerShell  
+**Backend & Infrastructure:** FastAPI, PostgreSQL, SQLite, Docker, Nginx  
+**Desktop & Frontend:** Electron, React, Vite, Tailwind CSS  
+**Security & Cryptography:** TLS Fingerprinting, Ed25519, AES-256-GCM, Windows Internals (Active Directory, Registry), Threat Intelligence  
+**Testing & CI/CD:** pytest, Vitest, GitHub Actions, CodeQL
 ---
 
 ## How I work

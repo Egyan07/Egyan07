@@ -64,14 +64,13 @@ Backup integrity monitoring using SHA-256 hashing and Shannon-entropy analysis t
 An educational `WH_KEYBOARD_LL` hook in C, written to see what a keylogger looks like at the API level so the detection side has something real to test against. No exfiltration, no persistence, and not a tool to deploy anywhere.
 
 ---
-
 ## Tech Stack
 
-**Languages:** Python, Go, TypeScript, JavaScript, C, PowerShell  
-**Backend & Infrastructure:** FastAPI, PostgreSQL, SQLite, Docker, Nginx  
-**Desktop & Frontend:** Electron, React, Vite, Tailwind CSS  
-**Security & Cryptography:** TLS Fingerprinting, Ed25519, AES-256-GCM, Windows Internals (Active Directory, Registry), Threat Intelligence  
-**Testing & CI/CD:** pytest, Vitest, GitHub Actions, CodeQL
+- **Languages:** Python, Go, TypeScript, JavaScript, C, PowerShell
+- **Backend & Infrastructure:** FastAPI, PostgreSQL, SQLite, Docker, Nginx
+- **Desktop & Frontend:** Electron, React, Vite, Tailwind CSS
+- **Security & Cryptography:** TLS Fingerprinting, Ed25519, AES-256-GCM, Windows Internals (Active Directory, Registry), Threat Intelligence
+- **Testing & CI/CD:** pytest, Vitest, GitHub Actions, CodeQL
 ---
 
 ## How I work
